@@ -159,6 +159,7 @@
   background-color: white;
   border-radius: 50%;
   display: flex;
+  flex-direction: row;
 }
 #second-page .type span .icons {
   display: flex;
