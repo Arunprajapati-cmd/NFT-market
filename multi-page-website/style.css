@@ -27,6 +27,7 @@
 }
 #navbar .tophead .container .menu ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding-top: 4vh;
   padding-right: 4vw;
@@ -125,10 +126,12 @@
 #second-page {
   height: auto;
   width: 100%;
-  background-color: black;
+  background-color: rgb(24, 23, 23);
+  padding-bottom: 28vh;
 }
 #second-page .upper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -180,12 +183,14 @@
   position: relative;
   top: 2vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   color: white;
   font-size: 15px;
 }
 #second-page .brd {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -207,6 +212,7 @@
 }
 #second-page .collection {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 #second-page .collection .clct-1 {
@@ -235,6 +241,7 @@
 }
 #second-page .collection .clct-1 .item-1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid rgb(181, 176, 176);
   width: 22vw;
@@ -290,4 +297,142 @@
   width: 100%;
   height: 80vh;
   background: linear-gradient(to right, #7a56f4, #9a58f3);
+}
+#create-nft .left-side {
+  margin-left: 6vw;
+  padding-top: 12vh;
+}
+#create-nft .left-side .top-border {
+  border-top: 2px solid rgb(255, 252, 252);
+  width: 6vw;
+  position: relative;
+  top: 6vh;
+}
+#create-nft .left-side .top-btn button {
+  width: 12vw;
+  height: 7vh;
+  background-color: #542cf8;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 1.1%;
+  padding-left: 2%;
+  position: relative;
+  left: 75vw;
+  top: 6vh;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-family: "Roboto", Serif;
+  font-size: 14px;
+}
+#create-nft .left-side .heading-top h1 {
+  font-size: 30px;
+  color: white;
+  font-family: "Roboto", Serif;
+  padding-top: 3vh;
+}
+#create-nft .left-side .info {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+#create-nft .left-side .info .setup .ic {
+  border: 1px solid #7453fc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+#create-nft .left-side .info .setup .information {
+  color: white;
+  padding-right: 2vw;
+}
+#create-nft .left-side .info .setup .information h1 {
+  padding-top: 4vh;
+  font-size: 20px;
+  font-family: "Roboto", Serif;
+}
+#create-nft .left-side .info .setup .information p {
+  padding-top: 3vh;
+  font-size: 15px;
+  font-family: "Roboto", Serif;
+  line-height: 4vh;
+}
+#create-nft .left-side .info .add {
+  border-left: 1px solid white;
+  position: relative;
+  overflow: hidden;
+}
+#create-nft .left-side .info .add .ic-2 {
+  border: 1px solid #7453fc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 2vw;
+}
+#create-nft .left-side .info .add .one {
+  position: absolute;
+  padding: 5px;
+  color: white;
+}
+#create-nft .left-side .info .add .one p {
+  font-size: 15px;
+}
+#create-nft .left-side .info .add .information {
+  color: white;
+  padding-right: 2vw;
+  margin-left: 2vw;
+}
+#create-nft .left-side .info .add .information h1 {
+  padding-top: 4vh;
+  font-size: 20px;
+  font-family: "Roboto", Serif;
+}
+#create-nft .left-side .info .add .information p {
+  padding-top: 3vh;
+  font-size: 15px;
+  font-family: "Roboto", Serif;
+  line-height: 4vh;
+}
+#create-nft .left-side .info .sell {
+  border-left: 1px solid white;
+  position: relative;
+  overflow: hidden;
+}
+#create-nft .left-side .info .sell .ic-3 {
+  border: 1px solid #7453fc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+#create-nft .left-side .info .sell .information {
+  color: white;
+  padding-right: 2vw;
+  margin-left: 2vw;
+}
+#create-nft .left-side .info .sell .information .one p {
+  position: absolute;
+}
+#create-nft .left-side .info .sell .information h1 {
+  padding-top: 4vh;
+  font-size: 20px;
+  font-family: "Roboto", Serif;
+}
+#create-nft .left-side .info .sell .information p {
+  padding-top: 3vh;
+  font-size: 15px;
+  font-family: "Roboto", Serif;
+  line-height: 4vh;
 }/*# sourceMappingURL=style.css.map */
