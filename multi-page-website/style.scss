@@ -1,3 +1,5 @@
+
+$font-family: "Roboto", Serif;
 *{
     margin: 0px;
     padding: 0px;
@@ -140,7 +142,7 @@
     }
 }
 #second-page{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: black;
     .upper{
@@ -166,31 +168,165 @@
             }
         }
     }
-    .type{ display: flex;
-        flex-direction: row;
-        span{
-            border: 1px solid black;
-            width: 4vw;
-            height: 8vh;
-            background-color: white;
-            border-radius: 50%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            // justify-content: center;
-            .icons{
-                display: flex;
-                flex-direction: row;
+    .type{
+        .icons{
+            margin-top: 15vh;
+            .product{
+                border: 2px solid #47494b;
+                background-color: #282b30;
+                border-radius: 20px;
+                padding: 40px !important;
+                padding-left: 60px;
+                padding-right: 60px;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                position: relative; 
+                left: 12vw;
+                margin-left: 1vw;
                 img{
-                    width: 2vw;
-                    height: 4vh;  
+                    height: 40px;
+                    width: 40px;
+                    border: 1px solid black;
+                    background-color: white;
+                    padding: 1vw;
+                    padding-left: 1vw;
+                    border-radius: 50%;
+                    position: relative;
+                    top: 1vh;                    
                 }
+                h1{
+                    position: relative;
+                    top: 2vh;
+                    // right: 1vw;
+                    // left: 1vw;
+                    display: flex;
+                    justify-content: center;
 
+                    color: white;
+                    font-size: 15px;
+                }
             }
-            
-            
+
+        }
+
+    }
+    .brd{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16vh;
+        .brd-top{
+            border-bottom: 2px solid #7453fc;
+            width: 7vw;
+            height: 0px;
+        }
+        .collect{
+            color: white;
+            margin-top: 6vh;
+            font-size: 20px ;
+            font-family: "Roboto", serif;
+            span{
+                color: #7453fc;
+            }
+        }
+    }
+    .collection{
+        display: flex;
+        justify-content: center;
+        .clct-1{
+            border-bottom: none;
+            width: 25vw;
+            gap: 1vw;
+            margin: 1vw;
+            background-color: #282b30;
+            border-radius: 20px;
+            img{
+                width: 25vw;
+                height: 45vh;
+                padding: 1vw;
+                // border-bottom: 1px solid white;
+                position: relative;
+                right: 1vw;
+                bottom: 2vh;
+            }
+            .gene{
+                font-size: 13px;
+                color: white ;
+                position: relative;
+                left: 1vw;
+                padding-bottom: 2vh;
+                font-family: $font-family;
+            }
+            .item-1{
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid rgb(181, 176, 176);
+                width: 22vw;
+                position: relative;
+                left: 1vw;
+                font-family: $font-family;
+                .section-1{
+                    color: white;
+                    font-family: $font-family;
+                    padding-top: 3vh;
+                    p{
+                        font-size: 13px;
+                        padding-bottom: 1vh;
+                    }
+                    h2{
+                        font-size: 18px;
+                    }
+                }
+                .section-2{
+                    color: white;
+                    font-family: $font-family;
+                    padding-top: 3vh;
+                    p{
+                        font-size: 13px;
+                        padding-bottom: 1vh;
+                        position: relative;
+                        left: 4vh;
+                    }
+                    h2{
+                        font-size: 18px;
+                    }
+                }
+    
+            }
+
+        }
+        .explore{
+            display: flex;
+            justify-content: center;
+            button{
+                background-color: #7453fc;
+                color: white;
+                width: 22vw;
+                height: 7vh;
+                border-radius: 22px;
+                border: none;
+                // position: absolute;
+                position: relative;
+                top: 2vh;
+                font-family: $font-family;
+                font-size: 15px ;
+                border-radius: 20px;
+            }      
         }
     }
     
-    
+}
+#create-nft{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to right,#7a56f4,#9a58f3) ;
+    .top-border{
+        .top-btn{
+            
+        }
+
+    }
+
 }
