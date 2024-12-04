@@ -35,6 +35,8 @@ $font-family: "Roboto", Serif;
                     list-style: none;
                     padding-top: 4vh;
                     padding-right: 4vw;
+                        
+                    }
                     li{
                         a{
                             text-decoration: none;
@@ -50,7 +52,7 @@ $font-family: "Roboto", Serif;
                             border-radius: 15px;
                         }
                         a:hover{
-                            background-color: rgb(194, 103, 254);
+                            background-color: #7453fc;
                             // border: 1px solid blue;
                             color: white;
                             padding: .7vw;
@@ -62,7 +64,7 @@ $font-family: "Roboto", Serif;
                 }
             }
         }  
-}
+
 #homepage{
     width: 100%;
     height: 140vh;
@@ -418,15 +420,6 @@ $font-family: "Roboto", Serif;
                     background-color: white;
                     margin-left: 2vw;
                 }
-                .one{ 
-                    position: absolute;
-                    padding: 5px;
-                    color: white;
-
-                    p{
-                      font-size: 15px; 
-                    }
-                }
                 .information{
                     color: white;
                     padding-right: 2vw;
@@ -458,19 +451,14 @@ $font-family: "Roboto", Serif;
                     justify-content: center;
                     align-items: center;
                     background-color: white;
+                    margin-left: 2vw ;
                 }
                 .information{
                     color: white;
                     padding-right: 2vw;
                     margin-left: 2vw;
-                    .one{
-                        p{
-                            position: absolute;
-
-
-
-                        }
                     }
+
                     h1{
                         padding-top: 4vh;
                         font-size: 20px;
@@ -486,5 +474,185 @@ $font-family: "Roboto", Serif;
             }
         }
     }
+#last-page{
+    width: 100%;
+    height: auto;
+    background-color: rgb(24, 23, 23);
 
+    .marketplace-1{
+        .contain{
+            display: flex;
+            flex-wrap: wrap                                                               ;
+            justify-content: space-between;
+            .markets{
+                h1{
+                    font-size: 30px;
+                    color: white;
+                    font-family: $font-family;
+                    margin-top: 17vh;
+                    margin-left: 8vw;
+                    span{
+                        color: #7453fc;
+                        border-top: 1px solid #7453fc;
+                        // padding-bottom: 5vh;
+                        padding-top: 5vh;
+                        
+                    }
+                }
+            }
+            .market-links{
+                display: flex;
+                flex-direction: row;
+                ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 3vw;
+                    margin-top: 15vh;
+                    // margin-left: 5vw;
+                    // position: relative;
+                    // left: 5vw;
+                    margin-right: 7vw;
+                    // margin-left: 12vw;
+                    li{
+                        list-style: none;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 16px;
+                            font-family: $font-family;
+                        }
+              }
+           }
+   }
+#checker{
+    &:checked{
+        .first-item{
+            display: none;
+        }
+    }
 }
+   
+        .items-all{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-left: 3vw;
+            margin-right: 3vw;
+            .first-item{
+                border: 1px solid rgb(55, 54, 54);
+                width: 40vw;
+                height: 55vh;
+                border-radius: 20px;
+                background-color: #262525;
+                display: flex;
+                color: white;
+                margin-top: 10vh;
+                .ghost{
+                    position: relative;
+                    top: 5vh;
+                    left: 2vw;
+                    border: 1px solid transparent;
+                    overflow: hidden;
+                    width: fit-content;
+                    height: fit-content;
+                    border-radius: 20px;
+                }
+                .ghost-info{
+                    position: relative;
+                    left: 5vw;
+                    top: 5vh;
+                    .super{
+                        h1{
+                            font-size: 20px;
+                            font-family: $font-family;
+                        }
+                    }
+                    .author{
+                        margin-top: 3vh;
+                        // display: flex;
+                        .quick{
+                            display: flex;
+                            flex-wrap: wrap;
+                            // justify-content: space-between;
+                            img{
+                                border: 1px solid transparent;
+                                width: fit-content;
+                                height: fit-content;
+                                overflow: hidden;
+                                border-radius: 50%;
+                            }
+                            .user{
+                                position: relative;
+                                top: 1vh;
+                                left: 1vw;
+                                span{
+                                    color: #542cf8;
+                                }
+                            }
+    
+                        }
+                        hr{
+                            width: 21vw;
+                            color: #47494b;
+                            margin-bottom: 5vh;
+                            margin-top: 5vh;
+                        }
+                        .bid{
+                            .current-bid{
+                                display: flex;
+                                justify-content: space-between;
+                                position: relative;
+                                // top: 5vh;
+                                .time{
+                                    position: relative;
+                                    // left: 5vw;
+                                    right: 0;
+                                    top: 0;
+                                    bottom: 0;
+                                    font-family: $font-family;
+                                    p{
+                                        display: flex;
+                                        justify-content: end;
+                                        font-size: 15px;
+                                        word-spacing: 2px;
+                                        margin-bottom: 2vh;
+                                    }
+                                    h1{
+                                        font-size: 20px;
+                                        margin-bottom: 2vh;
+                                    }
+                                }
+                                .bidder{
+                                    font-family: $font-family;
+                                    p{
+                                        display: flex;
+                                        justify-content: end;
+                                        font-size: 15px;
+                                        word-spacing: 2px;
+                                        // margin-top: 2vh;
+                                        margin-bottom: 2vh;
+                                        display: flex;
+                                        justify-content: start;
+                                    }
+                                    h1{
+                                        font-size: 20px;
+                                        margin-bottom: 2vh;
+                                    }
+                                }
+                            }
+                            .item-detail{
+                                margin-top: 3vh;
+                                a{
+                                    color: #7453fc;
+                                    font-family: $font-family;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+ }
+
