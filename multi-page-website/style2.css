@@ -4,7 +4,7 @@
 }
 
 #navbar {
-  position: fixed;
+  position: fixed !important;
   width: 100%;
   height: 14vh;
   background-color: white;
@@ -79,7 +79,79 @@
 #homepage {
   background-image: url(/multi-page-website/images/heading-bg.jpg);
   width: 100%;
-  height: 80vh;
+  height: 68vh;
+  padding-top: 14vh;
+}
+#homepage .heading {
+  font-family: "Roboto", Serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 25vh;
+}
+#homepage .heading .para p {
+  font-family: "Roboto", Serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 2vh;
+}
+#homepage .heading .head h1 {
+  font-family: "Roboto", Serif;
+  font-size: 50px;
+}
+#homepage .heading .home {
+  display: flex;
+  justify-content: center;
+}
+#homepage .heading .home span {
+  color: #910def;
+}
+#homepage .heading .home a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+#homepage .images .first .first-img {
+  display: flex;
+  position: relative;
+  top: 30vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 20px;
+}
+#homepage .images .first .first-img .item-1 {
+  width: 30vw;
+  height: 60vh;
+}
+#homepage .images .first .first-img .info {
+  position: absolute;
+  top: 30vh;
+  left: 12vw;
+  border: 1px solid white;
+  width: 16vw;
+  height: 22vh;
+  background-color: rgba(42, 41, 41, 0.882);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#homepage .images .first .first-img .info .genesis h1 {
+  font-family: "Roboto", Serif;
+  font-size: 20px;
+  margin-bottom: 2vh;
+}
+#homepage .images .first .first-img .info .user {
+  display: flex;
 }
 
 #second-page {
