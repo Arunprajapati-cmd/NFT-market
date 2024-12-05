@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Market</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- ====style google fonts==== -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- =========style google fonts end========= -->
+  <!-- =============font awesome================= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ==================font awesom end============================== -->
+</head>
+<body>
+    <header id="navbar">
+        <nav class="tophead">
+            <div class="container">
+                <div class="logo">
+                    <img src="/multi-page-website/images/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><span class="linking"><a href="index.html">Home</a></span></li>
+                        <li><span class="second-link"><a href="explore.html">Explore</a></span></li>
+                        <li><span class="linking"><a href="">Item Details</a></span></li>
+                        <li><span class="linking"><a href="">Author</a></span></li>
+                        <li> <span class="linking"><a href="">Create Yours</a></span></li>
+                    </ul>
+                </div>
+            </div>         
+    </nav>
+</header>
+<section id="homepage">
+
+
+</section>
+<section id="second-page">
+
+</section>
+ <!-- =============javascript for navbar ===================== -->
+ <script>
+    console.log("Script is running");
+    window.onscroll = function() {
+        console.log("scrolling...");
+var navbar = document.getElementById("navbar");
+if (window.pageYOffset > 50) { // Change 50 to the scroll position you want
+    navbar.classList.add("fixed");
+} else {
+    navbar.classList.remove("fixed");
+}
+};
+ </script>
+</body>
+</html>

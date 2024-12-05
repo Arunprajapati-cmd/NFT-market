@@ -763,95 +763,138 @@ $font-family: "Roboto", Serif;
     }
  }
 //  ===========css for mobile================
-
- @media(max-width:700px)
- {
-    #navbar{
-        .tophead{
-            .container{
-                .menu{
-                    display: none
-                }
-            }
-
-        }
-        }
-    #homepage{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        background-image: url(/multi-page-website/images/banner-bg.jpg);
-        width: 100% !important;
-        height: auto !important;
-        background-repeat: no-repeat;
-        background-size: cover;
-        .lhs{
-        width:80%;
-        display: flex;
-        flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
-        position: relative;
-        // padding: 20px;
-        top: 25vh;
-        left: 10%;
-        .button{
-            .explore{
-                width: 45%;
-                height: 7vh;
-                position: relative;
-            }
-            .watch{
-                width: 45%;
-                height: 7vh;
-                position: relative;
-                left: 2vw;
-            }
-            .explore:hover{
-                background-color: #7453fc;
-            }
-            .watch:hover{
-                background-color: white;
-                color: #7453fc;
-            }
-        }
-
-
-    }
-    .man{
-        width: 100% ;
-        display: flex;
-        flex-wrap: wrap;
-        // flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        // top: 20vh;
-        // padding: 20px;
-        // left: 20vw;
-        right: 80vw;
-        img{
-            // margin-top: 3000px;
-            min-width: 70%;
-            min-height: 14%;
+@media(max-width:600px)
+{
+    .type{
+        .icons{
             display: flex;
             justify-content: center;
-            position: relative;
-            // top: 20vh;
-            padding-top: 45%;
-            padding-left: 40%;
+            margin: 0;
+            padding: 0;
+            .item-box{
+                display: flex;
+                width: 100% !important;
+                margin: 5%;
+            
+            }
+        }
+
+        }
+    
+}
+ @media(max-width:800px)
+ {
+     #navbar{
+         .tophead{
+             .container{
+                 .menu{
+                     display: none
+                 }
+             }
+ 
+         }
+         }
+     #homepage{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         justify-content: center;
+         background-image: url(/multi-page-website/images/banner-bg.jpg);
+         width: 100%;
+         height: auto;
+         background-repeat: no-repeat;
+         background-size: cover;
+         .lhs{
+         width:80%;
+         display: flex;
+         flex-direction: column;
+         // justify-content: center;
+         // align-items: center;
+         position: relative;
+         // padding: 20px;
+         top: 25vh;
+         left: 10%;
+         .button{
+             .explore{
+                 width: 45%;
+                 height: 7vh;
+                 position: relative;
+             }
+             .watch{
+                 width: 45%;
+                 height: 7vh;
+                 position: relative;
+                 left: 2vw;
+             }
+             .explore:hover{
+                 background-color: #7453fc;
+             }
+             .watch:hover{
+                 background-color: white;
+                 color: #7453fc;
+             }
+         }
+ 
+ 
+     }
+     .man{
+         width: 100% ;
+         display: flex;
+         flex-wrap: wrap;
+         // flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         // top: 20vh;
+         // padding: 20px;
+         // left: 20vw;
+         right: 80vw;
+         img{
+             // margin-top: 3000px;
+             min-width: 70%;
+             min-height: 14%;
+             display: flex;
+             justify-content: center;
+             position: relative;
+             // top: 20vh;
+             padding-top: 45%;
+             padding-left: 40%;
+         }
+     }
+ 
+     }
+     #second-page{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding-top: 3vh;
+     .upper{
+         display: flex;
+         .heading{
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+            h1{
+             position: relative;
+            //  left: vw;
+            padding-left: 5%;
+            }
+         }
+     }
+     .type{
+        .icons{
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            .item-box{
+                display: flex;
+                width: 30%;
+                margin: 5%;
+            
+            }
+        }
+
         }
     }
-
-    }
-    #second-page{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-
 }
- }
-
-

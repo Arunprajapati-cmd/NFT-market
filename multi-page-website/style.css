@@ -680,7 +680,20 @@
   font-weight: 600;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+  .type .icons {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .type .icons .item-box {
+    display: flex;
+    width: 100% !important;
+    margin: 5%;
+  }
+}
+@media (max-width: 800px) {
   #navbar .tophead .container .menu {
     display: none;
   }
@@ -690,8 +703,8 @@
     flex-direction: column;
     justify-content: center;
     background-image: url(/multi-page-website/images/banner-bg.jpg);
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -743,5 +756,29 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 3vh;
+  }
+  #second-page .upper {
+    display: flex;
+  }
+  #second-page .upper .heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #second-page .upper .heading h1 {
+    position: relative;
+    padding-left: 5%;
+  }
+  #second-page .type .icons {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  #second-page .type .icons .item-box {
+    display: flex;
+    width: 30%;
+    margin: 5%;
   }
 }/*# sourceMappingURL=style.css.map */
