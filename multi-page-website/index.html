@@ -10,6 +10,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <!-- =========style google fonts end========= -->
+ <!-- =============font awesome================= -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- ==================font awesom end============================== -->
 </head>
 <body>
     <header id="navbar">
@@ -20,11 +23,11 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <span class="first-link"><li><a href="">Home</a></li></span>
-                            <span><li><a href="">Explore</a></li></span>
-                            <span><li><a href="">Item Details</a></li></span>
-                            <span><li><a href="">Author</a></li></span>
-                            <span><li><a href="">Create Yours</a></li></span>
+                            <li><span class="first-link"><a href="">Home</a></span></li>
+                            <li><span class="linking"><a href="">Explore</a></span></li>
+                            <li><span class="linking"><a href="">Item Details</a></span></li>
+                            <li><span class="linking"><a href="">Author</a></span></li>
+                            <li> <span class="linking"><a href="">Create Yours</a></span></li>
                         </ul>
                     </div>
                 </div>         
@@ -47,12 +50,9 @@
                     <button class="watch">Watch our Videos</button>
                 </div>       
             </div>
-            <div class="rhs">
                 <div class="man">
                     <img src="/multi-page-website/images/banner-02.png" alt="">
                 </div>
-
-            </div>
         </section>
         <section id="second-page">
             <div class="upper">
@@ -64,29 +64,59 @@
             </div>
             <div class="type">
                 <div class="icons">
-                    <div class="product">
-                        <img src="/multi-page-website/images/icon-01.png" alt="icon-01">
+                    <div class="item-box">
+                        <div class="product">
+                            <img src="/multi-page-website/images/icon-01.png" alt="icon-01">
+                        </div>
                         <h1>Blockchain</h1>
+                        <div class="plus">
+                             <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
                     </div>
-                    <div class="product">
-                       <img src="/multi-page-website/images/icon-02.png" alt="icon-02">
-                       <h1>Digital Art</h1>
+                    <div class="item-box">
+                        <div class="product">
+                           <img src="/multi-page-website/images/icon-02.png" alt="icon-02">
+                        </div>
+                        <h1>Digital Art</h1>
+                        <div class="plus">
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                       </div>
                     </div>
-                    <div class="product">
-                      <img src="/multi-page-website/images/icon-03.png" alt="icon-03">
-                      <h1>Music Art</h1>
+                    <div class="item-box">
+                        <div class="product">
+                          <img src="/multi-page-website/images/icon-03.png" alt="icon-03">
+                        </div>
+                        <h1>Music Art</h1>
+                        <div class="plus">
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                       </div>
                     </div>
-                    <div class="product">
-                      <img src="/multi-page-website/images/icon-04.png" alt="icon-04">
-                      <h1>Virtual World</h1>
+                    <div class="item-box">
+                        <div class="product">
+                          <img src="/multi-page-website/images/icon-04.png" alt="icon-04">
+                        </div>
+                        <h1>Virtual World</h1>
+                        <div class="plus">
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                       </div>
                     </div>
-                    <div class="product">
-                      <img src="/multi-page-website/images/icon-05.png" alt="icon-05">
-                      <h1>Valuable</h1>
+                    <div class="item-box">
+                        <div class="product">
+                          <img src="/multi-page-website/images/icon-05.png" alt="icon-05">
+                        </div>
+                        <h1>Valuable</h1>
+                        <div class="plus">
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                       </div>
                     </div>
-                    <div class="product">
-                      <img src="/multi-page-website/images/icon-06.png" alt="icon-06">
-                      <h1>Triple NFT</h1>
+                    <div class="item-box">
+                        <div class="product">
+                          <img src="/multi-page-website/images/icon-06.png" alt="icon-06">
+                        </div>
+                        <h1>Triple NFT</h1>
+                        <div class="plus">
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                       </div>
                     </div>
                 </div>
             </div>
@@ -208,23 +238,22 @@
         <section id="last-page">
             
             <div class="marketplace-1">
-                
-                <div class="items-all">
-                    <div class="contain">
-                        <div class="markets">
-                            <h1><span>Items</span> Currently In The Market.</h1>
-                        </div>
-                        <div class="market-links">
-                            <ul>
-                               <div class="all"><li><label for="">All Items</label></li></div>
-                               <input type="checkbox" id="checker">
-                               <div class="music"><li><label for="checker" >Music Art</label></li></div></label> 
-                                <div class="digital"><li>Digital Art</li></div>
-                                <div class="blockchain"><li>Blockchain</li></div>
-                                <div class="virtual"><li>Virtual</li></div>
-                            </ul>
-                        </div>
+                <div class="contain">
+                    <div class="markets">
+                        <h1><span>Items</span> Currently In The Market.</h1>
                     </div>
+                    <div class="market-links">
+                        <ul>
+                           <div class="all"><li><label for="">All Items</label></li></div>
+                           <!-- <input type="checkbox" id="checker"> -->
+                           <div class="music"><li><label for="checker" >Music Art</label></li></div></label> 
+                            <div class="digital"><li><label for="">Digital Art</label></li></div>
+                            <div class="blockchain"><li><label for="">Blockchain</label></li></div>
+                            <div class="virtual"><li><label for="">Virtual</label></li></div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="items-all">
                     <div class="first-item">
                         <div class="ghost">
                             <img src="/multi-page-website/images/market-01.jpg" alt="item-1">
@@ -476,7 +505,27 @@
 
             </div>
         </section>
+<!-- =========last page ends here========= -->
     </main>
+    <footer id="footer">
+        <div class="footer-content">
+            <p>Copyright © 2022 Liberty NFT Marketplace Co., Ltd. All rights reserved. <span class="de">Designed by <span class="mo">TemplateMo </span></span></p>
+
+        </div>
+    </footer>
+    <!-- =============javascript for navbar ===================== -->
+     <script>
+        console.log("Script is running");
+        window.onscroll = function() {
+            console.log("scrolling...");
+    var navbar = document.getElementById("navbar");
+    if (window.pageYOffset > 50) { // Change 50 to the scroll position you want
+        navbar.classList.add("fixed");
+    } else {
+        navbar.classList.remove("fixed");
+    }
+};
+     </script>
     
 </body>
 </html>
