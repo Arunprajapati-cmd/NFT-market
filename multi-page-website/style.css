@@ -166,7 +166,7 @@
   height: auto;
   width: 100%;
   background-color: rgb(24, 23, 23);
-  padding: 120px 0px 150px 0px;
+  padding: 120px 0 150px 0;
 }
 #second-page .upper {
   display: flex;
@@ -275,6 +275,7 @@
   margin-top: 6vh;
   font-size: 20px;
   font-family: "Roboto", serif;
+  margin-bottom: 5vh;
 }
 #second-page .brd .collect span {
   color: #7453fc;
@@ -683,7 +684,7 @@
 @media (max-width: 600px) {
   .type .icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0;
   }
@@ -691,6 +692,12 @@
     display: flex;
     width: 100% !important;
     margin: 5%;
+  }
+  .brd {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
   }
 }
 @media (max-width: 800px) {
@@ -756,7 +763,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 3vh;
+    padding: 0;
   }
   #second-page .upper {
     display: flex;
@@ -780,5 +787,22 @@
     display: flex;
     width: 30%;
     margin: 5%;
+  }
+  .brd {
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+  }
+  .collection {
+    flex-direction: column;
+    margin: 0;
+  }
+  .collection .clct-1 {
+    width: auto;
+    margin: 0;
+  }
+  .collection .clct-1 .img {
+    width: 100vw !important;
+    height: 45vh;
   }
 }/*# sourceMappingURL=style.css.map */

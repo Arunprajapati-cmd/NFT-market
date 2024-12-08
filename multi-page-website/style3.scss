@@ -3,13 +3,17 @@ $font-family: "Roboto", Serif;
     margin: 0;
     padding: 0;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 #navbar{
     position: absolute;
-    // right: 10vw;
-    // top: 4vh;
-    width: 100%;
+    right: 10vw;
+    top: 4vh;
+    width: 80%;
     height: 14vh;
-    // border-radius: 50px;
+    border-radius: 50px;
     background-color: white;
         .tophead{
             .container{
@@ -37,11 +41,14 @@ $font-family: "Roboto", Serif;
                         
                     }
                     li{
-                        .second-link{
+                        .first-link{
                             a{
                                 background-color: #7453fc;
                             // border: 1px solid blue;
                             color: white;
+                            padding: .7vw;
+                            margin: 1vw;
+                            border-radius: 18px;
                             text-decoration: none;
                             padding: 2vw;
                             font-size: 16px;
@@ -51,7 +58,7 @@ $font-family: "Roboto", Serif;
                             transition: background-color 0.3s, color 0.3s;
                             padding: .7vw;
                             margin: 1vw;
-                            border-radius: 20px;
+                            border-radius: 15px;
 
                             }
                         }
@@ -67,7 +74,7 @@ $font-family: "Roboto", Serif;
                                 transition: background-color 0.3s, color 0.3s;
                                 padding: .7vw;
                                 margin: 1vw;
-                                border-radius: 18px;
+                                border-radius: 15px;
                             }
                             a:hover{
                                 background-color: #7453fc;
@@ -82,16 +89,8 @@ $font-family: "Roboto", Serif;
                     }   
                 }
             }
-            .fixed {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                z-index: 1000; /* Ensure it stays above other content */
-                background-color: white; /* Change to your desired background color */
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
-         }     
-        } 
+           
+        }
 #homepage{
     background-image: url(/multi-page-website/images/heading-bg.jpg);
     width: 100%;
@@ -136,91 +135,6 @@ $font-family: "Roboto", Serif;
             text-decoration: none;
            }
         }
-    }
-    .images{
-        .first{
-            display: flex;
-            justify-content: space-evenly;
-            .first-img{
-                display: flex;
-                position: relative;
-                top: 30vh;
-                // justify-content: flex-start;
-                // border: 1px solid white;
-                width: fit-content;
-                height: fit-content;
-                overflow: hidden;
-                border-radius: 20px;
-                overflow: hidden;
-                .item-1{
-                    width: 30vw;
-                    height: 60vh;
-                    position: relative;
-                }
-
-                .info{
-                    position: absolute;
-                    top: 30vh;
-                    left: 30vw;
-                    // border: 1px solid white;
-                    border-radius: 15px;
-                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                    width: 16vw;
-                    height: 22vh;
-                    background-color: rgba(42, 41, 41, 0.882);
-                    color: white;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    transition:all 0.3s ease;
-                    .genesis{
-                        h1{
-                            font-family: $font-family;
-                            font-size: 20px;
-                            margin-bottom: 2vh;
-                        }
-                    }
-                    .user{
-                        display: flex;
-                        .name{
-                            position: relative;
-                            // left: 1vw;
-                            right: 1vw;
-                            top: 1vh;
-                            font-family: $font-family;
-                            span{
-                                color: #542bfa;
-                                font-weight: 400;
-                            }
-                        }
-                        .user-image{
-                            // border: 1px solid white;
-                            width: fit-content;
-                            height: fit-content;
-                            overflow: hidden;
-                            border-radius: 50%;
-                            position: relative;
-                            // left: 1vw;
-                            right: 2vw;
-                        }
-                    }
-                }
-                &:hover {
-                    .info {
-                        display: flex;
-                        transform: translateX(-18vw);
-
-                    }
-                }
-
-            }
-        }
-    }
 }
-#second-page{
-    background-image: url(/multi-page-website/images/dark-bg.jpg);
-    width: 100%;
-    height: 200vh;
-}
+} 
+

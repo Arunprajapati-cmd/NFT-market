@@ -113,6 +113,10 @@
   cursor: pointer;
   text-decoration: none;
 }
+#homepage .images .first {
+  display: flex;
+  justify-content: space-evenly;
+}
 #homepage .images .first .first-img {
   display: flex;
   position: relative;
@@ -123,24 +127,29 @@
   height: fit-content;
   overflow: hidden;
   border-radius: 20px;
+  overflow: hidden;
 }
 #homepage .images .first .first-img .item-1 {
   width: 30vw;
   height: 60vh;
+  position: relative;
 }
 #homepage .images .first .first-img .info {
   position: absolute;
   top: 30vh;
-  left: 12vw;
-  border: 1px solid white;
+  left: 30vw;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 16vw;
   height: 22vh;
   background-color: rgba(42, 41, 41, 0.882);
   color: white;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease;
 }
 #homepage .images .first .first-img .info .genesis h1 {
   font-family: "Roboto", Serif;
@@ -149,6 +158,30 @@
 }
 #homepage .images .first .first-img .info .user {
   display: flex;
+}
+#homepage .images .first .first-img .info .user .name {
+  position: relative;
+  right: 1vw;
+  top: 1vh;
+  font-family: "Roboto", Serif;
+}
+#homepage .images .first .first-img .info .user .name span {
+  color: #542bfa;
+  font-weight: 400;
+}
+#homepage .images .first .first-img .info .user .user-image {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  right: 2vw;
+}
+#homepage .images .first .first-img:hover .info {
+  display: flex;
+  transform: translateX(-18vw);
 }
 
 #second-page {
