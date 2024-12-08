@@ -41,7 +41,7 @@ $font-family: "Roboto", Serif;
                         
                     }
                     li{
-                        .first-link{
+                        .third-link{
                             a{
                                 background-color: #7453fc;
                             // border: 1px solid blue;
@@ -134,6 +134,10 @@ $font-family: "Roboto", Serif;
             cursor: pointer;
             text-decoration: none;
            }
+        }
+        .explore-btn{
+            display: flex;
+            justify-content: space-evenly;
         }
 }
 } 
