@@ -29,7 +29,7 @@
                         <li> <span class="linking"><a href="">Create Yours</a></span></li>
                     </ul>
                 </div>
-            </div>         
+            </div>   
     </nav>
 </header>
 <section id="homepage">
@@ -77,17 +77,16 @@
 
 </section>
  <!-- =============javascript for navbar ===================== -->
- <script>
-    console.log("Script is running");
-    window.onscroll = function() {
-        console.log("scrolling...");
-var navbar = document.getElementById("navbar");
-if (window.pageYOffset > 50) { // Change 50 to the scroll position you want
-    navbar.classList.add("fixed");
-} else {
-    navbar.classList.remove("fixed");
-}
-};
- </script>
+ <!-- // JavaScript for fixed navbar -->
+  <script>
+      window.onscroll = function() {
+        var navbar = document.getElementById("navbar");
+        if (window.pageYOffset > 50) { // Change 50 to the scroll position you want
+            navbar.classList.add("fixed");
+        } else {
+            navbar.classList.remove("fixed");
+        }
+    };
+  </script>
 </body>
 </html>
