@@ -118,4 +118,12 @@
 #homepage .heading .explore-btn {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+}
+#homepage .heading .explore-btn .our-item {
+  display: flex;
+  align-items: center;
+}
+#homepage .heading .explore-btn .our-item a button {
+  background-color: #7453fc;
 }/*# sourceMappingURL=style3.css.map */

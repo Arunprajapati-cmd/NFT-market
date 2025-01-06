@@ -139,6 +139,17 @@ $font-family: "Roboto", Serif;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
+            .our-item{
+                display: flex;
+                align-items: center;
+                a{
+                    button{
+                        background-color:#7453fc ;
+                        // width: 200px;
+                    }
+                }
+            }
+
         }
 }
 } 
